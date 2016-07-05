@@ -1,0 +1,332 @@
+.cv{
+
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;        
+    position: absolute; 
+    margin-top : 0;
+    flex-direction: column;
+	opacity: 1;
+    width: 100%;
+    height :650px;
+    background-image: url("minoterie-guipry-messac.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*order-size : 1px;*/ 
+}
+
+.presentation, .titre, .formation, .experience, .competence, .hobbies{
+    color :black;
+    background-image: url("img020b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 5%;
+    box-shadow:1px 1px 10px gray inset;
+    border-style:inset;
+    border-width:1px;
+}
+
+
+.presentation{
+    
+    height: 150px;
+    width : 95%;
+         
+    display : flex;
+    justify-content: space-around;
+    font-size: 20px;
+    flex-direction : row;
+    opacity: 0.9;
+    margin-left: 10px;
+    padding : 20px 10px 20px 10px;
+    text-shadow: 2px 2px black;
+    }
+
+
+.titre{/*Web dev jnr*/
+    
+    display : flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 25px;
+    padding: 10px 0px 10px 50px;
+    width : 600px;
+    height: 100px;
+    opacity: 0.8;    
+	margin-left: 10px;  
+}
+
+
+.titre .fonction{
+	color : black;
+
+}
+
+.formation{
+    
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-around;
+    font-size: 16px;
+    opacity: 0.9;
+    padding : 15px 5px 15px 35px;
+    width : 500px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.experience{
+        
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    padding : 15px 0px 15px 35px;
+    opacity: 0.9;
+    width : 650px;
+    height: 450px;
+	margin-left: 10px;
+	}
+
+.competence{/*langues, CACES"*/
+    
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    padding : 10px 30px 10px 35px;
+    width : 250px;
+    height: 400px;
+    opacity: 0.9;
+    font-size: 16px;
+    margin-left: 10px;}
+
+.hobbies{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding :10px 15px 10px 35px ;
+    width : 75%;
+    height: 200px;
+    opacity: 0.8;
+}
+
+.fonction {
+	text-align: left; 
+	color : black;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+
+.hobbies .fonction {text-align: left; color : black;padding-left: 10px;}
+
+.nom, .prenom, .adresse, .telephone, .mail, .age{
+    box-shadow:1px 1px 10px gray; 
+    color : yellow;
+    font-size: 22px;
+    text-align: center;
+    background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.nom{
+	
+	border-radius: 35%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;
+    }
+
+.prenom{
+    
+	border-radius: 35%;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;
+}       
+
+.adresse{
+
+    background-image: url("img020b2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.telephone{
+	background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;    
+}
+
+.mail {
+	background-image: url("img020b2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 35%;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    display: block;
+}
+
+.age{
+    
+	border-radius: 35%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+
+.annee{
+    display: inline-block;
+	background-image: url("img020b2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left :0px;
+    padding-right: 0px;
+    padding-top:5px;
+    color : blue;
+} 
+
+.intitule{
+	display: inline-block; 
+	background-image: url("img020b.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top:0px;
+    padding-left : 25px;
+    padding-right: 0px;
+    padding-top:5px;
+
+}
+
+.lieu{
+	
+	display: inline-block;
+	background-image: url("img020b.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+	padding-left : 5px;
+    padding-right: 0px;
+    padding-top:5px;
+}
+
+
+.phot1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("0pic2.jpg");
+    position: absolute;
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+   }
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {background-image:url("0pic2.jpg"); left:0px; top:0px;}
+    50%  {background-image:url("0pic2.jpg"); left:800px; top:150px;}
+    100%  {background-image:url("0pic2.jpg"); left:1000px; top:150px;}
+    }
+
+
+.phot2{
+	width: 100px;
+    height: 100px;
+    background-image: url("0pic1.jpg");
+    position: absolute;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {background-image:url("0pic1.jpg"); left:950px; top:0px;}
+    50%  {background-image:url("0pic1.jpg"); left:850px; top:150px;}
+    100%  {background-image:url("0pic1.jpg"); left:900px; top:150px;}
+}
+
+.phot3{
+	width: 100px;
+    height: 100px;
+    background-image: url("0pic4.jpg");
+    position: absolute;
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    }
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {background-image:url("0pic4.jpg"); left:950px; top:500px;}
+    50%  {background-image:url("0pic4.jpg"); left:950px; top:200px;}
+    100%  {background-image:url("0pic4.jpg"); left:900px; top:250px;}
+ }
+
+.phot4{
+	width: 100px;
+    height: 100px;
+    background-image: url("0pic3.jpg");
+    position: absolute;
+    -webkit-animation-name: example4; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+    animation-name: example4;
+    animation-duration: 2s;
+    /*animation-delay: 6s;*/
+    animation-fill-mode: forwards;
+   }
+
+/* Standard syntax */
+@keyframes example4 {
+    0%   {background-image:url("0pic3.jpg"); left:0px; top:500px;}
+    50%  {background-image:url("0pic3.jpg"); left:800px; top:500px;}
+    100%  {background-image:url("0pic3.jpg"); left:1000px; top:250px;}
+    
+}

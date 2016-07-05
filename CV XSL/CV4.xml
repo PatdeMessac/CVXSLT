@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="CV4.xsl" type="text/xsl" ?>
+
+<!DOCTYPE CV SYSTEM "CV4.dtd"> 
+
+<cv>
+   
+    <photos>
+        <phot1></phot1>
+        <phot2></phot2>
+        <phot3></phot3>
+        <phot4></phot4>
+    </photos>
+
+    <presentation>
+        <nom>GUERNON</nom>
+        <prenom>PATRICE</prenom>
+        <adresse>6, rue des Saulniers 35480 Guipry-Messac</adresse>
+        <telephone>066.600.89.38</telephone>
+        <mail>guernonpatrice@gmail.com</mail>
+        <age>43 ans</age>
+    </presentation>
+    
+
+    <titre>WEB DEVELOPPEUR Jr
+		<fonction>HTML5, CSS3, PHP</fonction>
+    </titre>
+
+    <formation>FORMATIONS
+        <intitule><annee>2017</annee> - WEB DEVELOPPEUR JUNIOR, RENNES </intitule>
+        <intitule><annee>1996</annee> - DEUG LLCE ANGLAIS, RENNES </intitule>
+        <intitule><annee>1992</annee> - BAC scientifique série D, REDON</intitule>
+    </formation>
+    <experience>EXPERIENCES
+        <!--<annee></annee>-->
+        <fonction><annee>2010/2014</annee> COLAS-Centre-Ouest : conducteur d'engin : Bomag 
+		BW174 AD. Conduite de compacteur mixte ou pneumatique.
+		</fonction>
+		<fonction><annee>1999/2010</annee> : COLAS Chantepie : maçon VRD et travaux d’enrobage, publics et particuliers.
+		</fonction> 
+		<fonction> <annee>1990/1998</annee> : travaux saisonniers : Bâtiment (rénovation monuments historiques) et Travaux Publics. (Screg, Eurovia, Colas, Joubrel/Limeul)</fonction>
+	</experience>
+        
+    <competence>COMPETENCE
+    	<fonction>ANGLAIS : lu, écrit, parlé</fonction>
+		<fonction>Allemand : notions</fonction>
+		<fonction>Permis B</fonction>
+		<fonction>CACES : catégorie 1-7-9</fonction>
+</competence>
+
+    <hobbies>LOISIRS
+    	<fonction>Design, innovation et écriture : blog : <annee>1mo-1id.over-blog.com</annee></fonction>
+    	<fonction>Dirigeant U13, Guipry-Messac [(FCGM) dirigeant U8 (2011-2013) et U10 (2013-2015)]</fonction>
+		<fonction>Slot Racing, Cercle-Paul-Bert Rapatel.<annee>http://slotracing.moninter.net</annee>, carte google club et artisants France
+        </fonction>
+		 
+</hobbies>
+    
+</cv>
